@@ -10134,6 +10134,14 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/1.jpg");
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-bottom: auto !important;
+}
+.rounded-circle {
+  border-radius: 50% !important;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
