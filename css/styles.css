@@ -10267,3 +10267,28 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+.animation {
+  display: flex;
+  border: cyan;
+  padding: 2em ;
+  margin-top: 2em;
+  border-radius: 10%;
+  animation-name: colors;
+  animation-duration:5s ;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes colors {
+from { background-color: blue; }
+  to{ background-color: purple; }
+} 
+.trans{
+  animation-name: colors;
+  animation-duration:5s ;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
