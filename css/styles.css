@@ -10273,7 +10273,7 @@ form .row:first-child .floating-label-form-group {
   padding: 2em ;
   margin-top: 2em;
   border-radius: 10%;
-  animation-name: colors;
+  animation-name: magic;
   animation-duration:5s ;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -10285,10 +10285,18 @@ from { background-color: blue; }
   to{ background-color: purple; }
 } 
 .trans{
-  animation-name: colors;
-  animation-duration:5s ;
+  animation-name: magic;
+  animation-duration:2s ;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 
+}
+@keyframes magic{
+  0% { background-color: red; }
+  20% { background-color: orange; }
+  40% { background-color: yellow; }
+  60% { background-color: green; }
+  80% { background-color: blue; }
+  100% { background-color: purple; }
 }
