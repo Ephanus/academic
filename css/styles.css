@@ -392,6 +392,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  background-color: var(--dark);
 }
 
 .display-1 {
@@ -600,6 +601,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
+  background-color: var(--secondary);
 }
 
 .no-gutters {
@@ -7914,6 +7916,7 @@ button.bg-dark:focus {
 .mr-auto,
 .mx-auto {
   margin-right: auto !important;
+  background-color: var(--green);
 }
 
 .mb-auto,
@@ -9761,7 +9764,11 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
+  text-decoration-style: wavy !important;
+}
+.text-decorate{
+  text-rendering: var(--font-family-monospace);
 }
 
 .text-capitalize {
@@ -10000,6 +10007,7 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+color: beige;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10134,7 +10142,7 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/1.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/susan/pic2.png");
 }
 .mx-auto {
   margin-right: auto !important;
@@ -10146,6 +10154,8 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  color: chartreuse;
+
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -10270,9 +10280,9 @@ form .row:first-child .floating-label-form-group {
 .animation {
   display: flex;
   border: cyan;
-  padding: 2em ;
-  margin-top: 2em;
-  border-radius: 10%;
+  padding: 0.5em ;
+  margin-top: 0.5em;
+  border-radius: 50%;
   animation-name: magic;
   animation-duration:5s ;
   animation-timing-function: linear;
